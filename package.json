@@ -1,0 +1,38 @@
+{
+  "name": "grand-marquee-react",
+  "version": "0.0.0",
+  "description": "Simple and easy to use horizontal marquee for React",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "na",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielDwyerPersonal/grand-marquee-react.git"
+  },
+  "keywords": [
+    "React.js",
+    "react",
+    "marquee",
+    "display",
+    "component"
+  ],
+  "author": "danielpatrickdwyer@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielDwyerPersonal/grand-marquee-react/issues"
+  },
+  "homepage": "https://github.com/DanielDwyerPersonal/grand-marquee-react#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "react": "^16.3.0",
+    "webpack": "^4.4.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.13"
+  }
+}
