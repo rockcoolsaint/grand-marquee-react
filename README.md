@@ -21,8 +21,8 @@ You must add these lines to your CSS or the marquee will NOT work:
 ```
 
 
-- Live Example: Coming Soon
-- Example Repo: Coming Soon
+- Live Example: http://brash-request.surge.sh/
+- Example Repo: https://github.com/DanielDwyerPersonal/grand-marquee-react/tree/master/public
 
 ## Getting Started
 
