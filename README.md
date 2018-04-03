@@ -1,8 +1,11 @@
+
 # grand-marquee-react
 ![Downloads](https://img.shields.io/npm/dm/marquee-react-dwyer.svg)
 ![Downloads](https://img.shields.io/npm/dt/marquee-react-dwyer.svg)
 ![npm version](https://img.shields.io/npm/v/marquee-react-dwyer.svg)
 ![License](https://img.shields.io/npm/l/marquee-react-dwyer.svg)
+
+**Welcome to users of react-marquee-dwyer (being deprecated 5/1/2018 and replaced with this project)**
 
 A horizontal marquee component for React! All you do is install, require, **include 4 lines of good old CSS**, and plug in your props and you have a full fledged marquee!
 
@@ -18,8 +21,8 @@ You must add these lines to your CSS or the marquee will NOT work:
 ```
 
 
-- Live Example: http://four-rock.surge.sh/
-- Example Repo: https://github.com/DanielDwyer/marquee-react-dwyer-example
+- Live Example: Coming Soon
+- Example Repo: Coming Soon
 
 ## Getting Started
 
