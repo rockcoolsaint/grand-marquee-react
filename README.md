@@ -1,4 +1,4 @@
-# marquee-react-dwyer
+# grand-marquee-react
 ![Downloads](https://img.shields.io/npm/dm/marquee-react-dwyer.svg)
 ![Downloads](https://img.shields.io/npm/dt/marquee-react-dwyer.svg)
 ![npm version](https://img.shields.io/npm/v/marquee-react-dwyer.svg)
