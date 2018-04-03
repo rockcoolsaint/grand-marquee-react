@@ -1,6 +1,6 @@
 {
   "name": "grand-marquee-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple and easy to use horizontal marquee for React",
   "main": "build/index.js",
   "scripts": {
