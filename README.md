@@ -9,8 +9,6 @@
 
 A horizontal marquee component for React! All you do is install, require, **include 4 lines of good old CSS**, and plug in your props and you have a full fledged marquee!
 
-**Alert** Breaking changes published April 2, 2018. The changes were made to the props supplied to <Marquee>. The props are now semantically named and all have an equivalent state inside the marquee component. See the code example below to see the props.
-
 # Alert
 You must add these lines to your CSS or the marquee will NOT work:
 ```shell
@@ -26,7 +24,7 @@ You must add these lines to your CSS or the marquee will NOT work:
 
 ## Getting Started
 
-## Install manually:
+## Install manually: (for $ NPM i see below this example)
 1. Go to github [https://www.github.com]
 2. Copy the ~/src/index.js file into your React codebase (name in marquee.js), treat it as a stand alone component
 3. Add the required 4 lines of CSS
