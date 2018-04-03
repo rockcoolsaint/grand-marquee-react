@@ -46,6 +46,7 @@ class Marquee extends React.Component {
 
   componentDidMount(){
     this.setState({
+      currentlyDisplayed: this.props.display1,
       totalDisplays: this.props.totalDisplays || 1,
       changeTime: this.props.changeTime || 2000,
       crossTime: this.props.crossTime || 8000,
@@ -63,28 +64,36 @@ class Marquee extends React.Component {
     this.props.display8 ? this.setState({display8: this.props.display8}) : delete this.state.display8
     this.props.display9 ? this.setState({display9: this.props.display9}) : delete this.state.display9
     this.props.display10 ? this.setState({display10: this.props.display10}) : delete this.state.display10
-    this.marqueeDisplayChange ()
+    
+    setTimeout(function() { this.marqueeDisplayChange() }.bind(this), 250);
   }
 
     marqueeDisplayChange () {
+
       if(this.state.randomDisplayChange){
+
         var that = this
         var intervalTime = this.state.changeTime
-        const change = setInterval(function(){
+        
+        setInterval(function() {
           var randomIndex = Math.floor((Math.random() * that.state.totalDisplays) + 1)
           that.setState({
-            currentlyDisplayed: that.state["display"+randomIndex]
+            currentlyDisplayedData: that.state["display"+randomIndex]
           })
-        }, intervalTime)
+        }, intervalTime);
+        
       }else{
+  
         var that = this
         var intervalTime = this.state.changeTime
-        const change = setInterval(function(){
+        
+        setInterval(function() {
           var nextIndex = that.state.currentlyDisplayedIndex
           var updateStateWith = nextIndex + 1
           updateStateWith ===  (that.state.totalDisplays + 1) ? updateStateWith = 0 : updateStateWith = nextIndex + 1
           that.setState({currentlyDisplayedData: that.state["display"+nextIndex],currentlyDisplayedIndex: updateStateWith})
-        }, intervalTime)
+        }, intervalTime);
+        
       }
     }
 

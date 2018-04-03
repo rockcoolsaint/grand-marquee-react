@@ -1,9 +1,9 @@
 
 # grand-marquee-react
-![Downloads](https://img.shields.io/npm/dm/marquee-react-dwyer.svg)
-![Downloads](https://img.shields.io/npm/dt/marquee-react-dwyer.svg)
-![npm version](https://img.shields.io/npm/v/marquee-react-dwyer.svg)
-![License](https://img.shields.io/npm/l/marquee-react-dwyer.svg)
+![Downloads](https://img.shields.io/npm/dm/grand-marquee-react.svg)
+![Downloads](https://img.shields.io/npm/dt/grand-marquee-react.svg)
+![npm version](https://img.shields.io/npm/v/grand-marquee-react.svg)
+![License](https://img.shields.io/npm/l/grand-marquee-react.svg)
 
 **Welcome to users of react-marquee-dwyer (being deprecated 5/1/2018 and replaced with this project)**
 
@@ -59,7 +59,7 @@ You must add these lines to your CSS or the marquee will NOT work:
 ## Install it via npm:
 
 ```shell
-npm i marquee-react-dwyer
+npm i grand-marquee-react
 ```
 
 
@@ -76,7 +76,7 @@ App.css (or any css file associated with your react component below) :
 Your react component where you want a marquee:
 ```html
 import React, { Component } from 'react';
-import Marquee from 'marquee-react-dwyer';
+import Marquee from 'grand-marquee-react';
 import './App.css';
 
 class App extends Component {
