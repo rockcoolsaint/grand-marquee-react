@@ -5,8 +5,6 @@
 ![npm version](https://img.shields.io/npm/v/grand-marquee-react.svg)
 ![License](https://img.shields.io/npm/l/grand-marquee-react.svg)
 
-**Welcome to users of react-marquee-dwyer (being deprecated 5/1/2018 and replaced with this project)**
-
 A horizontal marquee component for React! All you do is install, require, **include 4 lines of good old CSS**, and plug in your props and you have a full fledged marquee!
 
 # Alert
